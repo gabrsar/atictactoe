@@ -1,0 +1,160 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearMasterLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/player1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/lblStatus"
+            android:textSize="24sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textIsSelectable="false"
+            android:layout_margin="20dp"
+            android:ellipsize="marquee"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:id="@+id/linearGameLayout">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:id="@+id/linearRow0Master">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:id="@+id/b1"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/b2"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/b3"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/linearRow1Layout">
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/b4"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/b5"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/b6"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/linearRow2Layout">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:id="@+id/b7"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:id="@+id/b8"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:id="@+id/b9"
+                android:padding="10dp"
+                android:fontFamily="Monospace"
+                android:onClick="play" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

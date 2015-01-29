@@ -1,4 +1,1 @@
-Android TicTacToe
-=================
-
-A simple TicTacToe game for Android.
+This is my TICTACTOE GAME PROJECT!

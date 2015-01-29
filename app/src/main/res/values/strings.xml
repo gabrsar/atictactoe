@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <string name="app_name">Jogo da Velha</string>
+
+    <!-- Game Screen -->
+    <string name="current_player">Jogador atual: </string>
+    <string name="used_position">Posição utilizada! </string>
+    <string name="title_activity_game">Jogo da Velha! </string>
+    <string name="index_out_of_bounds">Indice fora dos limites!string </string>
+
+    <!-- Game End -->
+    <string name="game_draw">Velha!</string>
+    <string name="game_victory">Venceu!</string>
+
+    <!-- About Screen -->
+    <string name="title_activity_about">Sobre</string>
+    <string name="description">Um simples jogo da velha!\nSem frescuras, leve, rápido e divertido!</string>
+    <string name="about">Desenvolvido por:\nGabriel Henrique Martinez Saraiva\n\'gabrielsaraiva7@gmail.com\'</string>
+    <string name="sugest">Criticas e sugestões sempre são bem vindas.</string>
+
+
+
+    <string name="menu_about">:)</string>
+
+    <string name="new_game">Novo jogo</string>
+
+
+
+</resources>
