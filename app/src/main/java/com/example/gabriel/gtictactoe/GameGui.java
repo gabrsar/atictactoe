@@ -68,11 +68,10 @@ public class GameGui extends Activity {
         generateGuiBoard();
 
         if (savedInstanceState != null) {
-            /* Create a new game */
-            game = (TicTacToeEngine) savedInstanceState.getSerializable(GAME_ENGINE);
-
-        } else {
             /* Load game progress */
+            game = (TicTacToeEngine) savedInstanceState.getSerializable(GAME_ENGINE);
+        } else {
+            /* Create a new game */
             game = new TicTacToeEngine(gameSize);
         }
 
